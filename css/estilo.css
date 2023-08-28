@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem; }
+
+header nav {
+  background: linear-gradient(90deg, #00d3d7 19%, #00597d 100%, #00d4ff 100%); }
+  header nav .img_logo {
+    width: 120px;
+    border-radius: 50%;
+    padding: 10px; }
+  header nav .nav-item {
+    padding: 5px; }
+    header nav .nav-item .nav-link {
+      color: black;
+      font-size: 1.2rem; }
+      header nav .nav-item .nav-link:hover {
+        color: white; }
+  header nav .botonCompras {
+    display: flex;
+    padding-right: 50px; }
+    header nav .botonCompras .carritoCompras {
+      background-color: darkcyan; }
+      header nav .botonCompras .carritoCompras a {
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: black; }
+  header nav .dropdown-menu {
+    background-color: #00d3d3;
+    font-size: 1.1rem; }
+  header nav .btn {
+    background-color: darkcyan;
+    color: white; }
+    header nav .btn:hover {
+      background-color: darkcyan; }
+  header nav .d-flex {
+    padding-right: 300px; }
+  header nav .boton-carrito {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    background-color: darkcyan;
+    border-radius: 10px; }
+    header nav .boton-carrito:hover {
+      color: white; }
+
+main {
+  background-color: #ecebeb; }
+
+.main_titulo {
+  background-color: darkcyan; }
+  .main_titulo .titulo {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px; }
+
+footer {
+  background: linear-gradient(90deg, #00d3d7 19%, #00597d 100%, #00d4ff 100%); }
+
+.contenedor-productos {
+  display: grid;
+  width: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px;
+  justify-items: center;
+  align-items: center;
+  padding: 20px; }
+  .contenedor-productos .productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contenedor-productos .productos .productoImg {
+      width: 300px;
+      border: black 2px solid; }
+    .contenedor-productos .productos .comprar {
+      font-size: 1rem;
+      color: white;
+      background-color: #008cff;
+      border-radius: 3px;
+      padding: 5px; }
+
+.productos_ofertas {
+  background-color: darkcyan;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 40px; }
+
+.nuevos_ingresos {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "img1 img2 img2" "img3 img3 img3";
+  gap: 5px;
+  padding-bottom: 10px; }
+  .nuevos_ingresos .img1 {
+    grid-area: img1; }
+  .nuevos_ingresos .img2 {
+    grid-area: img2; }
+  .nuevos_ingresos .img3 {
+    grid-area: img3; }
+  .nuevos_ingresos img {
+    width: 100%;
+    height: 100%; }
+
+.ofertas_container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 10px; }
+
+.ofertas_card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+  gap: 20px; }
+
+.acceso_cuenta {
+  width: 100%;
+  height: 800px;
+  display: flex; }
+  .acceso_cuenta .formulario {
+    width: auto;
+    background-color: #254a6e;
+    padding: 20px;
+    margin: auto; }
+    .acceso_cuenta .formulario h4 {
+      text-align: center;
+      color: whitesmoke;
+      font-size: 20px;
+      margin-bottom: 20px; }
+    .acceso_cuenta .formulario .datos__formulario {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px; }
+    .acceso_cuenta .formulario .boton {
+      width: 100%;
+      padding: 12px;
+      margin: 0 auto; }
+
+.formulario_contacto {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 10px; }
+  .formulario_contacto .formulario {
+    width: 50%;
+    background-color: #254a6e;
+    padding: 30px;
+    margin: auto; }
+    .formulario_contacto .formulario h4 {
+      text-align: center;
+      color: whitesmoke;
+      font-size: 20px;
+      margin-bottom: 20px; }
+    .formulario_contacto .formulario .datos__formulario {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px; }
+    .formulario_contacto .formulario .boton {
+      width: 100%;
+      padding: 12px;
+      margin: 0 auto; }
+
+.contacto_2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px; }
+  .contacto_2 .ubicacion {
+    text-align: center; }
+  .contacto_2 .ubicacion_imagenes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; }
+    .contacto_2 .ubicacion_imagenes iframe {
+      width: 500px;
+      height: 260px; }
+    .contacto_2 .ubicacion_imagenes img {
+      width: 500px;
+      height: auto; }
+
+.nosotros_texto {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.nosotros_foto {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px; }
+  .nosotros_foto img {
+    width: 500px;
+    height: auto;
+    transition: all 1s; }
+    .nosotros_foto img:hover {
+      border-radius: 20%;
+      transform: scale(1.1, 1.1); }
+
+.nosotros_video {
+  text-align: center;
+  padding: 10px; }
+  .nosotros_video iframe {
+    width: 560px;
+    height: 315px; }
+
+.error_404 h2 {
+  text-align: center; }
+
+.error_404 .error__img {
+  text-align: center; }
+  .error_404 .error__img img {
+    width: 500px;
+    height: auto;
+    border-radius: 15%; }
+
+.error_404 .boton_volver {
+  text-align: center;
+  padding: 20px; }
+  .error_404 .boton_volver .volver {
+    text-decoration: none; }
+
+.productosOcultar {
+  display: none; }
+
+.boton-Carrito {
+  text-align: center;
+  padding: 10px; }
+
+.ver-carrito {
+  font-size: 1.5rem;
+  background-color: darkcyan;
+  padding: 5px; }
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px; }
+  .header-container .compraTotal {
+    text-align: center;
+    background-color: deepskyblue;
+    font-size: 1.3rem;
+    padding: 10px; }
+
+.headerBoton {
+  background-color: darkcyan;
+  padding: 10px;
+  font-size: 1.2rem; }
+
+.carrito-main {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 30px;
+  justify-items: center;
+  align-items: center; }
+  .carrito-main .productoImg {
+    width: 175px;
+    border: black 1px solid; }
+  .carrito-main .productoPrecio {
+    font-weight: bold; }
+  .carrito-main .productoTitulo {
+    font-weight: bold; }
+  .carrito-main .eliminarProducto {
+    font-size: 1rem;
+    background-color: darkcyan; }
+
+@media screen and (max-width: 1280px) {
+  .contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 10px; } }
+
+@media screen and (max-width: 600px) {
+  .contenedor-productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
+
+@media screen and (max-width: 1280px) {
+  .productos_ofertas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px; } }
+
+@media screen and (max-width: 1280px) {
+  .nuevos_ingresos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "img1" "img2" "img3"; } }
+
+@media screen and (max-width: 600px) {
+  .nosotros_foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; }
+    .nosotros_foto img {
+      width: 100%;
+      height: auto; } }
+
+@media screen and (max-width: 600px) {
+  .nosotros_video iframe {
+    width: 100%;
+    height: auto; } }
+
+@media screen and (max-width: 600px) {
+  .contacto_2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .contacto_2 .ubicacion {
+      text-align: center; }
+    .contacto_2 .ubicacion_imagenes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px; }
+      .contacto_2 .ubicacion_imagenes img {
+        width: 100%;
+        height: auto; }
+      .contacto_2 .ubicacion_imagenes iframe {
+        width: 100%;
+        height: auto; } }
+
+@media screen and (max-width: 600px) {
+  .formulario_contacto {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 10px; }
+    .formulario_contacto .formulario {
+      width: 100%; } }
+
+@media screen and (max-width: 1280px) {
+  .carrito-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 60px; } }
+
+@media screen and (max-width: 1000px) {
+  .botonCompras {
+    display: flex;
+    padding-top: 30px; } }

@@ -1,0 +1,134 @@
+@import "body";
+@import "var";
+@import "header";
+@import "main";
+@import "footer";
+@import "productos";
+@import "formulario";
+@import "contacto";
+@import "nosotros";
+@import "404";
+@import "carrito";
+
+
+@media screen and (max-width: 1280px) {
+    .contenedor-productos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contenedor-productos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .productos_ofertas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .nuevos_ingresos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "img1"
+            "img2"
+            "img3";
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nosotros_foto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nosotros_video iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contacto_2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .ubicacion {
+            text-align: center;
+        }
+
+        .ubicacion_imagenes {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            iframe {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .formulario_contacto {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 10px;
+
+        .formulario {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .carrito-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .botonCompras {
+        display: flex;
+        padding-top: 30px;
+    }
+}

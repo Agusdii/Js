@@ -1,0 +1,40 @@
+.nosotros_texto {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nosotros_foto {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+
+    img {
+        width: 500px;
+        height: auto;
+        transition: all 1s;
+
+        &:hover {
+            border-radius: 20%;
+            transform: scale(1.1, 1.1);
+        }
+    }
+}
+
+.nosotros_video {
+    text-align: center;
+    padding: 10px;
+
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+}

@@ -1,0 +1,59 @@
+.productosOcultar {
+    display: none;
+}
+
+.boton-Carrito {
+    text-align: center;
+    padding: 10px;
+}
+
+.ver-carrito {
+    font-size: 1.5rem;
+    background-color: $colortitulo;
+    padding: 5px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    .compraTotal {
+        text-align: center;
+        background-color: deepskyblue;
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+}
+
+.headerBoton {
+    background-color: $colortitulo;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.carrito-main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 30px;
+    justify-items: center;
+    align-items: center;
+
+    .productoImg {
+        width: 175px;
+        border: black 1px solid;
+    }
+
+    .productoPrecio {
+        font-weight: bold;
+    }
+
+    .productoTitulo {
+        font-weight: bold;
+    }
+
+    .eliminarProducto {
+        font-size: 1rem;
+        background-color: $colortitulo;
+    }
+}

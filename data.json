@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "titulo": "Silla Gamer Antec T1 Sport B/Y Negra y Amerilla",
+        "imagen": "https://agusdii.github.io/Js/img/SillaGamer.png",
+        "precio": 97000,
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "titulo": "Notebook ASUS TUF Gaming",
+        "imagen": "https://agusdii.github.io/Js/img/Notebook.png",
+        "precio": 70000,
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "titulo": "Auriculares Corsair HS35 Gaming",
+        "imagen": "https://agusdii.github.io/Js/img/Auriculares.png",
+        "precio": 22500,
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "titulo": "Mouse Logitech G PRO X Superlight",
+        "imagen": "https://agusdii.github.io/Js/img/Mause.png",
+        "precio": 58700,
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "titulo": "Placa de Video Gigabyte Radeon RX 6600 XT Gaming",
+        "imagen": "https://agusdii.github.io/Js/img/Placavideo.png",
+        "precio": 400000,
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "titulo": "Micro Intel Core I7 10700F 8 Núcleos",
+        "imagen": "https://agusdii.github.io/Js/img/Procesador.png",
+        "precio": 205000,
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "titulo": "Placa de Video NVIDIA GeForce GTX 1660",
+        "imagen": "https://agusdii.github.io/Js/img/PlacadeVideoNvidia.png",
+        "precio": 200000,
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "titulo": "Gabinete Corsair Templado RGB",
+        "imagen": "https://agusdii.github.io/Js/img/Gabinete.png",
+        "precio": 165000,
+        "cantidad": 1
+    },
+    {
+        "id": 9,
+        "titulo": "Cooler CPU Water Cooling",
+        "imagen": "https://agusdii.github.io/Js/img/Cooler.png",
+        "precio": 195000,
+        "cantidad": 1
+    }
+]

@@ -1,0 +1,14 @@
+main {
+    background-color: #ecebeb;
+}
+
+.main_titulo {
+    background-color: $colortitulo;
+
+    .titulo {
+        text-align: center;
+        color: black;
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+}
